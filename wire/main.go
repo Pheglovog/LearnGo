@@ -35,10 +35,18 @@ func (e Event) Start() {
 	fmt.Println(msg)
 }
 
+// with wire, we use dependency injection like this
 func main() {
-	message := NewMessage()
-	greater := NewGreater(message)
-	event := NewEvent(greater)
-
-	event.Start()
+	e := InitializeEvent()
+	e.Start()
 }
+
+// with wire, we use dependency injection like this
+// func main() {
+// 	//这里的初始化步骤太多了
+// 	message := NewMessage()
+// 	greater := NewGreater(message)
+// 	event := NewEvent(greater)
+
+// 	event.Start()
+// }

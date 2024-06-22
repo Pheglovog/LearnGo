@@ -11,4 +11,5 @@ use (
 	./Exercise/package_example
 	./Hello
 	./example/hello
+	./wire
 )
