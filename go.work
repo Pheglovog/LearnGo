@@ -1,0 +1,14 @@
+go 1.22.2
+
+use (
+	./Exercise/ch06
+	./Exercise/ch07
+	./Exercise/ch09
+	./Exercise/ch10
+	./Exercise/experiment/workspace_app
+	./Exercise/experiment/workspace_lib
+	./Exercise/internal_example
+	./Exercise/package_example
+	./Hello
+	./example/hello
+)
